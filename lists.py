@@ -23,8 +23,10 @@ nums = [1,5,2,4,3]
 # print(lib)
 
 # nums.sort(reverse=True)
-print(nums)
 
+# print(min(nums))
+# print(max(nums))
+# print(sum(nums))
 
 # pop returns the item removed
 # pop uses indexes not values
@@ -38,9 +40,30 @@ print(nums)
 #courses.append('Art')
 #courses.insert(0,'Art')
 
-print(courses)
+# print(courses)
+
+# To find the index of a value
+# print(courses.index('CompSci'))
+
+# To find if a value exists and returns true or false
+# print('Art' in courses)
+
+# for course in courses:
+#     print(course)
+
+# Enumerate give the index of the value currently being looped
+# The start gives which value the index should start being couted from
+# for index, course in enumerate(courses, start=1):
+#      print(index, course)
+
 # print(courses[-1:-5:-1])
 # print(courses[::-1])
+
+course_str = ', '.join(courses)
+print(course_str)
+
+new_list = course_str.split(', ')
+print(new_list)
 
 
 
