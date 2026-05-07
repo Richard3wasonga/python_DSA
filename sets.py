@@ -2,8 +2,8 @@ cs_courses = {'History', 'Math', 'Physics', 'CompSci'}
 art_courses = {'History', 'Math', 'Art', 'Design'}
 
 # Empty set
-empty_set = {} # This isn't right! it's a dict
-empty_set = set()
+# empty_set = {} # This isn't right! it's a dict
+# empty_set = set()
 
 # sets get rid of duplicate values
 # set values have no order so with every execution the order might change
