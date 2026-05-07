@@ -2,6 +2,10 @@ courses = ['History', 'Math', 'Physics', 'CompSci']
 courses_2 = ['Art', 'Education']
 nums = [1,5,2,4,3]
 
+# Empty list
+# empty_list = []
+# empty_list = list()
+
 # courses.reverse()
 # When using sort we alter the original list to not alter the original list use sorted which returns a sorted version of the list
 # courses.sort()
